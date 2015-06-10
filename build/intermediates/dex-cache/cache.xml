@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jack_tang/Downloads/adt-bundle/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/jack_tang/git/HealthSmallOne/DialogTest/app/build/intermediates/pre-dexed/release/support-v4-19.1.0-597ab650adc6ba266e62b589919bd8b33bd12595.jar" />
+    </item>
+
+</items>
