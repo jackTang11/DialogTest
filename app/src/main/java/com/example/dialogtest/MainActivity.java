@@ -1,12 +1,12 @@
 package com.example.dialogtest;
 
-import java.io.File;
-
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+
+import java.io.File;
 
 
 public class MainActivity extends Activity {
@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
                 tmpFile.mkdir();
         }
         final File file = new File("/sdcard/update/" + fileName);
-    	
+    	System.gc();
     	new AppDownload("http://storage.pgyer.com/4/d/4/1/a/4d41a4cf619f7b02f9e18b23b693366d.apk",file) {
 			
 			@Override
